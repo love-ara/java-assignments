@@ -9,25 +9,35 @@ import java.util.Scanner;
        int secondNumber = input.nextInt();
        int thirdNumber = input.nextInt();
 
-       if(firstNumber<secondNumber && firstNumber<thirdNumber){
-       System.out.println(firstNumber);
-}
-       if(secondNumber<firstNumber && secondNumber<thirdNumber){
-       System.out.println(secondNumber);
-}
-       if(thirdNumber<firstNumber && thirdNumber<secondNumber){
-       System.out.println(thirdNumber);
-}
+       if(firstNumber>secondNumber &&  secondNumber>thirdNumber)
+System.out.printf("%d %d %d", thirdNumber, secondNumber, firstNumber);
+ 
+       if(secondNumber>firstNumber && firstNumber>thirdNumber)
+System.out.printf("%d %d %d",  thirdNumber, firstNumber, secondNumber);
+    
+        if(thirdNumber>firstNumber && firstNumber>secondNumber)
+System.out.printf("%d %d %d", secondNumber, firstNumber, thirdNumber);
 
-       if(firstNumber>secondNumber && firstNumber>thirdNumber){
-       System.out.println(firstNumber);
-}
-       if(secondNumber>firstNumber && secondNumber>thirdNumber){
-       System.out.println(secondNumber);
-}
-       if(thirdNumber>firstNumber && thirdNumber>secondNumber){
-       System.out.println(thirdNumber);
-}
+        if(firstNumber>thirdNumber && thirdNumber>secondNumber)
+System.out.printf("%d %d %d", firstNumber, thirdNumber, secondNumber);
+
+     if(secondNumber>thirdNumber && thirdNumber>firstNumber)
+System.out.printf("%d %d %d", firstNumber, thirdNumber, secondNumber);
+
+     if(thirdNumber>secondNumber && secondNumber>firstNumber)
+System.out.printf("%d %d %d", secondNumber, thirdNumber, firstNumber);
+
+
+
+     
+
+
+
+
+
+
+
+
 
 
 

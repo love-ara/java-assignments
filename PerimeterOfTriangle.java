@@ -15,7 +15,7 @@ import java.util.Scanner;
       int sum2 = edge1 + edge3;
       int sum3 = edge2 + edge3;
  
-      if(sum1>edge3 && sum2>edge2 && sum3>edge1)System.out.print(perimeter);
+      if(sum1>edge3 && sum2>edge2 && sum3>edge1)System.out.print("The Perimeter is equal to " + perimeter);
 
 else { System.out.print("INVALID");
 }

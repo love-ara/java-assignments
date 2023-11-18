@@ -5,7 +5,7 @@ import java.util.*;
  
        Scanner input = new Scanner(System.in);
 
-       System.out.print("Take a guess: Head or Tail ");
+       System.out.print("Take a guess: Head or Tail: ");
        String takeAGuess = input.next();
        int head = 0;
        if(takeAGuess.equals("head")){
