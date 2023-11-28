@@ -4,10 +4,10 @@ import java.util.Scanner;
          
          public static void main (String [] args){
            
-         Scanner fellie = new Scanner(System.in);
+         Scanner input = new Scanner(System.in);
 
          System.out.println("Enter an integer");
-         int integer = fellie.nextInt();
+         int integer = input.nextInt();
 
 
          if (integer % 3 == 0){

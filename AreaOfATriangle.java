@@ -1,6 +1,6 @@
  import java.util.Scanner;
 
-        public class AreaOfTriangle{
+        public class AreaOfATriangle{
 
         public static void main(String [] args){
 
@@ -26,6 +26,7 @@
 
        double area = Math.sqrt(sum * product);
 
+      
       System.out.println("The area of the triangle is " + area);
 
 

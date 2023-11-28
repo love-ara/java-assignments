@@ -1,6 +1,6 @@
  import java.util.Scanner;
 
-        public class AreaOfTriangle{
+        public class TriangleArea{
 
         public static void main(String [] args){
 
@@ -15,17 +15,20 @@
         double y3 = input.nextDouble();
        
         
-       side1 = x1 - y1;
-       side2 = x2 - y2;
-       side3 = x3 - y3;
+       double side1 = y1 - x1;
+       double side2 = y2 - x2;
+       double side3 = y3 - x3;
 
        double sum = (side1 + side2 + side3) / 2;
        
 
        double product = ((sum - side1) * (sum - side2) * (sum - side3));
-
+       System.out.println("poduct is " + product);
+        
+       
        double area = Math.sqrt(sum * product);
 
+      
       System.out.println("The area of the triangle is " + area);
 
 
