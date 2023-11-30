@@ -10,21 +10,21 @@ import java.util.Scanner;
 		int number = input.nextInt();
 
 		boolean isPrime = true;
+		int count = 2;
 
-		if (number > -1){
-		for (int i = 2; i <= number / 2; i++){
-		 
-		  if (number % i == 0){
+		
+		while(count <= number / 2){
+		 if (number % count == 0){
 		    isPrime = false;
 		   }
+		      count++;
 		}  
-
-		if (isPrime){
+ 		    if (isPrime){
 		   System.out.println("The number "+number+" is a prime number");
 		  }else{
 		   System.out.println("The number "+number+" is not a prime number");
 		  }
-		}
+		
 	  	
 
 
