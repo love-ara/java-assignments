@@ -4,7 +4,7 @@
 
 
         System.out.print("""
-                Semicolon Africa
+                Semicolon Africa,
                 320, Herbert Macaulay,
                 Sabo, Yaba,
                 Lagos, Nigeria.
